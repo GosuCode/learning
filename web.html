@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        .top{
+            background-image: url(../IMAGE/black-blue-galaxy-illustration-wallpaper.jpg);
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .logo{
+            border-radius: 50%;
+        }
+
+        .name{
+            font-family:cursive;
+            text-align: center;
+            color: rgb(200, 79, 231);
+        }
+
+        .top-login{
+            text-align: right;
+        }
+
+        .top-login a{
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        .navbar{
+            position: relative;
+            display: inline-block;
+        }
+
+        button{
+            border-radius: 8px;
+            background-color: rgb(200, 79, 231);
+        }
+
+        a button{
+            color: aliceblue;
+        }
+
+        a button:hover{
+            filter: brightness(1.2);
+        }
+
+        ul{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        ul li a{
+            color: aliceblue;
+        }
+
+        ul li{
+            background-color: rgb(200, 79, 231);
+            height: 20px;
+            width: 250px;
+            float: left;
+            text-align: center;
+            list-style: none;
+        }
+
+        div ul li a{
+            text-decoration: none;
+        }
+
+        div ul li:hover{
+            filter: brightness(1.2);
+        }
+
+        ul li ul{
+            display: none;
+        }
+
+        .faculty li {
+            border: 1px solid black;
+        }
+
+        ul .faculty-hover:hover ul{
+            display: block;
+        }
+
+        .company-picture{
+            height: 400px;
+            width: 1400px;
+            margin-top: 20px;
+        }
+
+        article{
+            font-family: 'Handlee', cursive;
+            color: white;
+            width: 70%;
+            height: 200px;
+            float: left;
+            background-color: rgb(42, 42, 43);
+            border-radius: 20px;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        aside{
+            font-family: 'Handlee', cursive;
+            color: yellow;
+            width: 25%;
+            height: 190px;
+            float: right;
+            background-color: rgb(42, 42, 43);
+            border-radius: 20px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        table tr td img{
+            height: 300px;
+            width: 480px;
+            margin: 5px;
+        }
+
+        #footer{
+            color: white;
+            background-color: rgb(42, 42, 43);
+            text-align: center;
+            height: 100px;
+            width: 100%;
+        }
+
+        .social{
+            height: 20px;
+            width: 20px;
+            border-radius: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <!--Logo and banner section-->
+    <header class="top">
+        <section>
+            <img class="logo" src="../IMAGE/Untitled.png" alt="" height="70px" width="70px" align="left">
+        <h1 class="name">MY WEB</h1>
+        <div class="top-login">
+            <a href="./Login.html"><button>LOGIN</button> </a>
+            <a href="./Sign-up.html"><button>SIGN UP</button> </a>
+        </div>
+        </section>
+    </header>
+    <!--Menu section-->
+
+    <div class="navbar">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="#para">ABOUT US</a></li>
+            <li><a href="">ADMINISTRATION</a></li>
+            <li class="faculty-hover"><a href="">FACULTY</a>
+                <ul class="faculty">
+                    <li><a href="#">BCA</a></li>
+                    <li><a href="#">CSIT</a></li>
+                    <li><a href="#">BIM</a></li>
+                </ul>
+            </li>
+            <li><a href="#images">GALLERY</a></li>
+            <li><a href="#footer">CONTACT US</a></li>
+        </ul>
+    </div>
+
+    <div align="center">
+        <img class="company-picture" src="../IMAGE/pixel-jeff-clipc-s.gif" alt="Company Picture">
+    </div>
+
+    <div id="para">
+        <article><h3>Welcome To My WEB</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure saepe nisi in possimus tempora dolore, cumque, quos asperiores, adipisci optio repellat consequuntur incidunt quas hic autem nihil deleniti inventore amet.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero mollitia minima atque, id beatae optio nihil. Obcaecati officia impedit tempora omnis cupiditate dolore quo vel facere? Repudiandae excepturi tempora distinctio!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatum nam aperiam consequatur ab itaque, recusandae sequi quia cumque a nulla ratione distinctio dolore ut libero, soluta quae quidem blanditiis.
+
+            </p>
+
+        </article>
+
+        <aside><h3>Advertisement !!</h3>
+            <p>
+                Lorem ipsum dolor sit amet uam ex quod quis alias fuga repudiandae cupiditate repellat debitis quasi architecto, sequi non. Exercitationem dolore repudiandae animi reiciendis nesciunt libero hic.
+             adipisicing elit. Delectus quosdf surethis is .
+            </p>
+
+        </aside>
+    </div>
+
+    <div id="images">
+        <table>
+            <tr>
+                <td><img src="../IMAGE/class1.jpg" alt=""></td>
+                <td><img src="../IMAGE/pixel-jeff-clipc-s.gif" alt=""></td>
+                <td><img src="../IMAGE/SunThroughTrees_1920x1080.jpg" alt=""></td>
+            </tr>
+
+            <tr>
+                <td><img src="../IMAGE/Untitled.png" alt=""></td>
+                <td><img src="../IMAGE/class3.jpg" alt=""></td>
+                <td><img src="../IMAGE/class4.jpg" alt=""></td>
+            </tr>
+        </table>
+    </div>
+
+    <foofter>
+        <section id="footer">
+
+            <b>Customer Support:</b>
+            customercare@gmail.com <br>
+            +977 1 0101010 <br>
+
+            <b>FOLLOW US ON:</b>
+             <img class="social" src="../IMAGE/facebook-logo-png-transparent-background-1024x1024.png" alt="facebook">
+            <img class="social" src="../IMAGE/Instagram_logo_2016.svg.webp" alt="instagram">
+             <img class="social" src="../IMAGE/twi.png" alt="twitter"><br>
+            <cite>Nepal, Lumbini Province, Rupandehi, Butwal-10, Ramnagar</cite>
+        </section>
+    </footer>
+</body>
+</html>
